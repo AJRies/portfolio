@@ -48,7 +48,7 @@ body {
     height: 900px;
     width: 100%;
     margin-bottom: 50px;
-    background-image: "../assets/images/egypt.jpg";
+    background-image: url("../assets/images/egypt.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -81,7 +81,6 @@ content {
 
 .float-right {
     float: right;
-    margin-left: 30px;
 }
 
 .work img {
