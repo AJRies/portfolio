@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header {
+    padding: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.header img {
+    display:inline-block;
+    margin:auto;
+    width: 2.5%;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    color: black;
+}
+
+.header nav {
+    padding-top: 30px;
+    margin-right: 50px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.contact-form {
+    background-image: ("../images/egpyt.jpg");
+}
+
+a {
+    color:black
+}
+
+p {
+    font-size: 20px;
+}
+
+content {
+    display: inline-block;
+    margin-left: 100px;
+    width: 75%;
+}
+
+.about-me, .work, .contact-me, .resume {
+    margin-bottom: 20px;
+    padding: 35px;
+    height: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(247, 75, 23, 0.973);
+    color: black;
+}
