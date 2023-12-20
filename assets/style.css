@@ -81,6 +81,8 @@ content {
 
 .float-right {
     float: right;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
 .work img {
