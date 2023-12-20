@@ -44,8 +44,13 @@ body {
     margin-left: 25px;
 }
 
-.contact-form {
-    background-image: ("../images/egpyt.jpg");
+.contact_form {
+    height: 900px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: "../assets/images/egypt.jpg";
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -54,19 +59,37 @@ a {
 
 p {
     font-size: 20px;
+    background-color: red;
 }
 
 content {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 25px;
     width: 75%;
 }
 
 .about-me, .work, .contact-me, .resume {
     margin-bottom: 20px;
-    padding: 35px;
+    margin-left: 10%;
+    padding: 100px;
     height: 150px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
     background-color:rgba(247, 75, 23, 0.973);
     color: black;
+}
+
+.float-right {
+    float: right;
+    margin-left: 30px;
+}
+
+.work img {
+   height: 20vh;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
 }
